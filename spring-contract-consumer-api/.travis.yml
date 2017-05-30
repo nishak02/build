@@ -4,4 +4,6 @@ jdk: oraclejdk8
 before_install:
   - cd java
   - mvn install 
-$ git push origin
+
+script:
+- bundle exec rake
